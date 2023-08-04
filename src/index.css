@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section {
+    width: 100%;
+    max-width: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+.card-container{
+
+  display: inline-flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+.homepage h1{
+
+  text-align: center;
+  padding: 2rem;
+  
+ }
+ .homepage h1 {
+  margin-bottom: 1rem; 
+} 
+
+
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
